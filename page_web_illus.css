@@ -1,0 +1,62 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #dcdad5;
+}
+/* Style du titre principal "Introduction" */
+ h1 {
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+}
+h2{
+    margin-top: 100px;
+}
+
+/* Style pour les liens <a> avec href="title" */
+.title-link {
+    font-weight: bold;
+    color: #0066cc; /* Choisis une couleur agréable pour les liens */
+    text-decoration: none; /* Retirer le soulignement par défaut */
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.title-link:hover {
+    color: #003366; /* Changer la couleur au survol */
+}
+
+/* Flexbox pour aligner l'image à gauche et le texte à droite */
+section {
+    display: flex;
+    align-items: center; /* Aligner l'image et le texte verticalement */
+    margin: 20px;
+}
+.intro{
+    text-align-all: center;
+}
+.image {
+    width: 30%; /* L'image occupe 40% de la largeur */
+    height:auto;
+    margin-right: 20px;
+    max-height:100%;
+}
+
+.text {
+    width: 70%; /* Le texte occupe 60% de la largeur */
+    font-size: 24px;
+}
+lo{
+    align-content:center;
+    margin:30px;
+}
+/* Ajout de l'espace en dessous de chaque section */
+.content + .content {
+    margin-top: 40px;
+}
